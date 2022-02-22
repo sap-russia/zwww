@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_ZWWW</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>ZWWW</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ZWWW</CLSNAME>
+     <CMPNAME>CHAR_0A</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>###### ####### ####### x0A</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ZWWW</CLSNAME>
+     <CMPNAME>CHAR_0D</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>###### ####### ###### x0D</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ZWWW</CLSNAME>
+     <CMPNAME>CHAR_ASCII</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>char255</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ZWWW</CLSNAME>
+     <CMPNAME>CHAR_TAB</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>###### ######### x09</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ZWWW</CLSNAME>
+     <CMPNAME>VERSION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>###### ##########</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

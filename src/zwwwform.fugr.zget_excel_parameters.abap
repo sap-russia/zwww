@@ -1,0 +1,33 @@
+FUNCTION ZGET_EXCEL_PARAMETERS.
+*"----------------------------------------------------------------------
+*"*"######### #########:
+*"  EXPORTING
+*"     REFERENCE(DECIMAL_SEPARATOR) TYPE  CHAR1
+*"     REFERENCE(THOUSAND_SEPARATOR) TYPE  CHAR1
+*"     REFERENCE(DATE_SEPARATOR) TYPE  CHAR1
+*"     REFERENCE(DATE_FORMAT)
+*"----------------------------------------------------------------------
+
+
+*  Perform AssignCharX.
+
+  Perform GET_EXCEL_PARAMETERS
+    changing
+      DECIMAL_SEPARATOR
+      THOUSAND_SEPARATOR
+      DATE_SEPARATOR
+      DATE_FORMAT.
+
+*  PERFORM GET_EXCEL_DECIMAL_SEPARATOR
+*    USING DECIMAL_SEPARATOR.
+*
+*  PERFORM GET_EXCEL_THOUSAND_SEPARATOR
+*    USING THOUSAND_SEPARATOR.
+*
+*  Perform GET_SYSTEM_DATE_SEPARATOR
+*    USING DATE_SEPARATOR.
+*
+*  Perform GET_SYSTEM_DATE_FORMAT
+*    USING DATE_FORMAT.
+
+ENDFUNCTION.
